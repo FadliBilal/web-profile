@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, rgba(0, 228, 255, 1) 0%, rgba(107, 255, 226, 1) 90%);
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-left {
+    border-radius: 8px;
+}
+
+.card-body {
+    padding-left: 20px;
+}
+
+.card-title {
+    margin-bottom: 1px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.container-list {
+    display: flex;
+}
+
+.list-column {
+    margin-right: 20px;
+}
+
+.social-media {
+    margin-top: 1px;
+}
+
+.social-media a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #0084ff;
+}
+
+
+.biodata {
+    display: flex;
+    flex-direction: column;
+}
+
+.biodata-item {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.biodata-label {
+    font-weight: bold;
+    color: #333;
+    width: 200px;
+    text-align: left;
+    margin-right: 5px;
+}
+
+.biodata-value {
+    color: #555;
+}
