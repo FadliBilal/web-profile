@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background: radial-gradient(circle, rgba(0, 228, 255, 1) 0%, rgba(107, 255, 226, 1) 90%);
 }
 
@@ -76,4 +76,45 @@ ul {
 
 .biodata-value {
     color: #555;
+}
+
+.company-profile-produk {
+    padding: 1px;
+}
+
+.company-profile-produk h3 {
+    font-size: 2rem; 
+    color: #004a94; 
+    margin-bottom: 20px; 
+}
+
+.table {
+    width: 100%;
+}
+
+.table th,
+.table td {
+    padding: 10px; 
+    text-align: left; 
+    vertical-align: center; 
+}
+
+.table th {
+    background-color: #004a94; 
+    color: #ffffff; 
+    font-weight: bold; 
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1; 
+}
+
+.table img {
+    max-width: 100px; 
+    border-radius: 5px;
+    transition: transform 0.3s; 
+}
+
+.table img:hover {
+    transform: scale(1.05); 
 }
