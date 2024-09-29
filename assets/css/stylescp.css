@@ -384,6 +384,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -442,6 +443,7 @@ legend + * {
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
+  appearance: text;
 }
 
 /* rtl:raw:
@@ -463,6 +465,7 @@ legend + * {
 ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
+  appearance: button;
 }
 
 output {
@@ -10840,7 +10843,7 @@ textarea.form-control-lg {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
+  background-color: radial-gradient(circle, rgba(0, 228, 255, 1) 0%, rgba(107, 255, 226, 1) 90%);
   background: url("/assets/img/pp.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
@@ -10896,7 +10899,7 @@ header.masthead h1, header.masthead .h1 {
 
 .call-to-action {
   position: relative;
-  background-color: #343a40;
+  background-color: radial-gradient(circle, rgba(0, 228, 255, 1) 0%, rgba(107, 255, 226, 1) 90%);
   background: url("/assets/img/pp.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
